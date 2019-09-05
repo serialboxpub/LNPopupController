@@ -8,5 +8,5 @@ Pod::Spec.new do |s|
   s.author       = { "LeoNatan" => "" }
   s.platform     = :ios, '11.0'
   s.source       = { :git => "https://github.com/serialboxpub/LNPopupController.git", :tag => "#{s.version}" }
-  s.source_files = 'LNPopupController/*', 'LNPopupController/LNPopupController/*','LNPopupController/LNPopupController/Private/*'
+  s.source_files = 'LNPopupController/LNPopupController.pch', 'LNPopupController/LNPopupController/*','LNPopupController/LNPopupController/Private/*'
 end
